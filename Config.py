@@ -1,3 +1,5 @@
+from Emojies import *
+
 TOKEN = "TOKEN"
 BOT_ID = int(TOKEN[:TOKEN.index(":")])
 MAX_FILE_SIZE = 51200
