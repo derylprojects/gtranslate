@@ -1,6 +1,6 @@
 from Emojies import *
 
-TOKEN = "TOKEN"
+TOKEN = os.getenv('TG_BOT_TOKEN')
 BOT_ID = int(TOKEN[:TOKEN.index(":")])
 MAX_FILE_SIZE = 51200
 LEN_LANGUAGES = 100
